@@ -1,20 +1,26 @@
 {
-  "name": "github-example-app",
-  "version": "1.0.0",
-  "description": "An example app for the Zapier platform.",
-  "repository": "zapier/zapier-platform-app-github-example",
-  "homepage": "https://zapier.com/developer",
-  "author": "Zane Lyon <zane.lyon@zapier.com>",
-  "license": "BSD-3-Clause",
+  "name": "volt-automator",
+  "version": "1.0.7",
+  "description": "Invite Volt members to various online tools",
+  "repository": "C:/",
+  "homepage": "https://volteuropa.org/join",
+  "author": "Mike Szyndel <mike.szyndel@volteuropa.org>",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --recursive"
+    "test": "node node_modules/mocha/bin/mocha --recursive --timeout 5000"
   },
   "engines": {
     "node": "6.10.2",
     "npm": ">=3.10.10"
   },
   "dependencies": {
+    "google-auth-library": "^1.2.1",
+    "limax": "^1.6.0",
+    "password-generator": "^2.2.0",
+    "supports-color": "^5.2.0",
+    "transliteration": "^1.6.2",
+    "zapier-platform-cli": "4.3.2",
     "zapier-platform-core": "4.3.2"
   },
   "devDependencies": {
